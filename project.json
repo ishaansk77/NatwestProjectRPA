@@ -1,0 +1,65 @@
+{
+  "name": "Natwest_Employee_Salary_Update",
+  "projectId": "0ef59149-f44b-479f-8a3c-980792e905bc",
+  "description": "Updating salary , creating a report and send it to mail id",
+  "main": "Main.xaml",
+  "dependencies": {
+    "Desky.Datatable.Activities": "[1.0.10]",
+    "UiPath.Excel.Activities": "[3.0.1]",
+    "UiPath.GSuite.Activities": "[3.1.1-preview]",
+    "UiPath.Mail.Activities": "[2.1.0-preview]",
+    "UiPath.MicrosoftOffice365.Activities": "[3.1.1-preview]",
+    "UiPath.System.Activities": "[25.2.1]",
+    "UiPath.WorkflowEvents.Activities": "[3.7.0]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "25.0.161.0",
+  "projectVersion": "1.0.1",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": false,
+    "saveToCloud": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "e5ca5b29-434e-47b0-a97d-5d199a555dc0",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}
